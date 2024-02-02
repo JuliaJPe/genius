@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lora:ital@0;1&family=Playfair+Display:wght@400;500;600&family=Unna&display=swap');
+
+body{
+    background-color: #121212;
+}
+
+.fundo{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/img/genius.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Cor escura da sombra com transparência */
+}
+
+.intro{
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    width: 50%;
+    height: 40vh;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    
+}
+
+.intro h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    margin: 3px;
+}
+
+.intro h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin: 3px 0 15px 0;
+}
+
+hr{
+    width: 20%;
+}
+
+.intro h3{
+    font-family: 'Unna', serif;
+    font-size: 17px;
+    font-weight: 100;
+}
